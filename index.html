@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourVista - Explore the World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVIGATION BAR ===== -->
+    <nav class="navbar">
+        <div class="nav-logo">&#9992; TourVista</div>
+        <div class="nav-links">
+            <a href="#" class="nav-btn active">Home</a>
+            <a href="#" class="nav-btn">Rated Tours</a>
+            <a href="#" class="nav-btn">Gallery</a>
+            <a href="#" class="nav-btn">About Us</a>
+            <a href="#" class="nav-btn">Feedback</a>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-tagline">✈️ Discover · Explore · Experience</p>
+            <h1 id="hd1">Welcome to <span class="gradient-text">Tourist Blogs</span></h1>
+            <p class="hero-subtitle">Handpicked destinations, real weather, and unforgettable journeys around the globe.
+            </p>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg">
+                <path fill="rgba(10,10,30,0.95)" d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" />
+            </svg>
+        </div>
+    </header>
+
+    <!-- ===== TOURS SECTION ===== -->
+    <div class="container">
+        <h2 class="section-title">🌍 Top Rated Tours</h2>
+        <div id="tours-container" class="tours-grid">
+            <!-- Tour cards injected by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
